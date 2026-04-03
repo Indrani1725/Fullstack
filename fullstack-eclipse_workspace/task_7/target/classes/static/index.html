@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task 7: Feedback Form</title>
+    <style>
+        .form-container { margin: 20px; padding: 20px; border: 1px solid #ccc; width: 300px; }
+        .input-field { margin-bottom: 10px; width: 100%; padding: 5px; transition: background-color 0.3s; }
+        /* Highlight fields on mouse hover */
+        .input-field:hover { background-color: #e8f0fe; border: 1px solid blue; }
+        .error { color: red; font-size: 12px; }
+    </style>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Customer Feedback</h2>
+        <form id="feedbackForm">
+            <input type="text" id="name" class="input-field" placeholder="Your Name" required>
+            <div id="nameError" class="error"></div>
+            
+            <input type="email" id="email" class="input-field" placeholder="Your Email" required>
+            <div id="emailError" class="error"></div>
+            
+            <textarea id="comments" class="input-field" placeholder="Comments" required></textarea>
+            
+            <button type="button" id="submitBtn">Submit (Double Click)</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
