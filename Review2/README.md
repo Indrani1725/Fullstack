@@ -1,2 +1,6 @@
 
-[Click here to view project demo]("C:\Users\tirum\Videos\Screen Recordings\Screen Recording 2026-04-22 095752.mp4")
+# Internal Department Event Booking Demo Video
+
+Click the link below to watch the full project demonstration:
+
+[Watch Demo Video Here](https://drive.google.com/file/d/1_t_RvVhZ_eL0Y0HOYXPNQ9r68zgrvhNx/view?usp=sharing)
